@@ -1,0 +1,31 @@
+body {
+    background: #2F3136;
+}
+.card {
+    background: #dce7e5;
+}
+.form-flex {
+    background: #dce7e5;
+}
+.form-group{
+    padding: 3%;
+}
+.form-control {
+    transition: background 0.5s;
+    border-top: 3px solid #21291f88;
+    padding: 2%;
+}
+.form-control:focus{
+    border-radius: 1px;
+    background: transparent;
+    border-top: 3px solid #46c02088;
+}
+.boton {
+    text-align: center;
+    margin-left: 70%;
+}
+
+.listTitle {
+    background: #9b84ee86;
+    text-decoration: none;
+}

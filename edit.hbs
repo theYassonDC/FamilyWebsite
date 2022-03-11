@@ -1,0 +1,33 @@
+<div class="cointainer p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/users/edit/{{lists.id}}" method="POST" class="form-flex">
+                    <h1 style="font-size: 30px; padding: 11px;">Edita los datos de tu familia</h1>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="title" placeholder="Name family" style="background: transparent;" required="text" value="{{lists.title}}">
+                        </div>
+                        <div class="form-group">
+                            <input type="url" name="url" class="form-control" placeholder="URL"style="background: transparent;" value="{{lists.url}}">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="principal_family" placeholder="Tu abuela"style="background: transparent;" required="text" value="{{lists.principal_family}}">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="description" rows="2" class="form-control" placeholder="Acerca de tu familia"style="background: transparent;">{{lists.description}}</textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control form-control-sm" type="file" name="folder">
+                        </div>
+                        <div class="boton">
+                            <button class="btn btn-success btn-block">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.btn {
+    padding-inline: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.nav-item:hover {
+    background: #1b57ff88;
+    background-size: 30px;
+    border-radius: 2px;
+    transition: background 0.7s;
+}
+.material-icons {
+    margin-right: 7px;
+}
+.navbar-collapse {
+    background: transparent;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-item1:hover{
+    background: rgb(241, 72, 72);
+    border-radius: 2px;
+    transition: background 0.8s;
+}
+.nav-item2:hover{
+    border-radius: 2px;
+    background: rgb(66, 250, 106);
+    transition: background 0.8s;
+}
